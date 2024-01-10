@@ -1,0 +1,1 @@
+header{display:flex;justify-content:space-between;align-items:center;margin-top:1.5%;margin-right:10%;margin-left:10%;border-radius:75px;background:rgba(255,255,255,.9);backdrop-filter:blur(7.5px)}header .logo{font-size:30px;letter-spacing:1px;margin-left:2%}header .logo span:first-of-type{color:#38bff2}header .logo span:last-of-type{color:#f15525}

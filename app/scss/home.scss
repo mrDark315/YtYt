@@ -1,0 +1,25 @@
+@import 'vars';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 75px;
+    background: rgba(255, 255, 255, 0.90);
+    backdrop-filter: blur(7.5px);
+
+    .logo {
+        font-size: $FontSize30;
+        letter-spacing: 1px;
+        margin-left: 2%;
+
+        span {
+            &:first-of-type {color: $colorLightBlue;}
+
+            &:last-of-type {color: $colorOrange;}
+        }
+    }
+}
